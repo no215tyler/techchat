@@ -4,5 +4,5 @@
 | Column  | Type   | Options     |
 | ------- | ------ | ----------- |
 | title   | string | null: false |
-| content | string | null: false |
+| content | text   | null: false |
 | byname  | string | null: false |
