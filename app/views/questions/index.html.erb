@@ -1,0 +1,11 @@
+<% @questions.each do |question| %>
+  <div class="question_title">タイトル：
+    <%= question.title %>
+  </div>
+  <div class="question_content">内容：
+    <%= question.content %>
+  </div>
+  <div class="question_byname">投稿者名：
+    <%= question.byname %>
+  </div>
+<% end %>
